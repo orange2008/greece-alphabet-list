@@ -4,6 +4,6 @@ import json
 import time
 local = {"alpha": '¦¡ ¦Á',"beta": '¦¢ ¦Â',"gamma": '¦£ ¦Ã',"delta": '¦¤ ¦Ä',"epsilon": '¦¥ ¦Å',"zeta": '¦¦ ¦Æ',"eta": '¦§ ¦Ç',"theta": '¦¨ ¦È',"iota": '¦© ¦É',"kappa": '¦ª ¦Ê',"lambda": '¡Ä ¦Ë',"mu": '¦¬ ¦Ì',"nu": '¦­ ¦Í',"xi": '¦® ¦Î',"omicron": '¦¯ ¦Ï',"pi": '¡Ç ¦Ð',"rho": '¦± ¦Ñ',"sigma": '¡Æ ¦Ò',"tau": '¦³ ¦Ó',"upsilon": '¦´ ¦Ô',"phi": '¦µ ¦Õ',"chi": '¦¶ ¦Ö',"psi": '¦· ¦×',"omega": '¦¸ ¦Ø'}
 for eng,alp in local.items():
-    print("English: " + eng + "  AlphaBet: " + alp)
+    print("English: " + eng + "  Greece alphabet: " + alp)
 
-os.system("pause")
+quit = input("")
